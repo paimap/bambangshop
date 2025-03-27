@@ -91,3 +91,8 @@ This is the place for you to write reflections:
 3. Ya, saya merasa Postman sangat membantu dalam menguji API yang sedang dikembangkan.
 
 #### Reflection Publisher-3
+1. Karena NotificationService secara aktif mengirimkan data notifikasi ke pelanggan, dan pelanggan tidak perlu meminta data, kita menggunakan variasi Push model dari Observer Pattern.
+
+2. Jika menggunakan Pull Model, pelanggan dapat memilih kapan dan bagaimana mereka menerima data.
+
+3. Menghapus multi-threading dari proses notifikasi akan mengurangi efisiensi dan user experience  karana akan memperlambat proses penerbitan produk dan membuat aplikasi tidak responsif.
