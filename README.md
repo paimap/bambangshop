@@ -84,5 +84,10 @@ This is the place for you to write reflections:
 3. Karena pada BambangShop kemungkinan besar ada banyak subscriber yang perlu ditambahkan, dihapus, atau diambil datanya dalam waktu bersamaan, maka menggunakan DashMap sudah tepat.
 
 #### Reflection Publisher-2
+1. Memisahkan service dan repository membantu membuat kode yang modulerm tersturktur, mudah diuji, dan fleksibel. Pemisahan sangat diperlukan untuk menjaga kualitas dan maintainability kode.
+
+2. Jika kita hanya menggunakan model, kode akan menjadi lebih kompleks, sulit diubah, penuh duplikasi, dan lebih rentan terhadap bug karena model harus menangani banyak hal.
+
+3. Ya, saya merasa Postman sangat membantu dalam menguji API yang sedang dikembangkan.
 
 #### Reflection Publisher-3
