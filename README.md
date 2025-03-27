@@ -77,6 +77,11 @@ This is the place for you to write reflections:
 ### Mandatory (Publisher) Reflections
 
 #### Reflection Publisher-1
+1. Jika hanya ada satu jenis Subscriber, cukup menggunakan struct. Namun, jika di masa depan ingin memiliki lebih dari 1 tipe subscriber, akan lebih baik jika menggunakan trait.
+
+2. Untuk jumlah subscriber yang besar, Dash map jauh lebih efisien karena memiliki kompleksitas pencarian O(1). Kita ingin memastikan url unik dan memungkinkan pencarian yang cepat sehingga penggunaan DashMap sudah tepat dibandingkan Vec.
+
+3. Karena pada BambangShop kemungkinan besar ada banyak subscriber yang perlu ditambahkan, dihapus, atau diambil datanya dalam waktu bersamaan, maka menggunakan DashMap sudah tepat.
 
 #### Reflection Publisher-2
 
